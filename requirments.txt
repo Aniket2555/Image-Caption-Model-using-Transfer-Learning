@@ -1,0 +1,8 @@
+keras
+numpy
+keras
+tensorflow
+tqdm
+matplotlib
+pydot
+ipykernel

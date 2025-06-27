@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files and outputs
+models/
+*.h5
+*.pkl
+*.p
+*.ckpt
+*.pb
+
+# Dataset and large files
+Flickr8k_Dataset/
+Flickr8k_text/
+
+# Lock and log files
+uv.lock
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore processed/generated files
+src/features.p
+src/tokenizer.p
+src/processed_description.txt
+
+research/*
