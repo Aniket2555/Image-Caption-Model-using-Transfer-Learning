@@ -91,6 +91,3 @@ image-caption-model-project-2/
 ## Credits
 - Flickr8k dataset: [https://forms.illinois.edu/sec/1713398](https://forms.illinois.edu/sec/1713398)
 - Keras, TensorFlow, and other open-source libraries.
-
----
-Feel free to update this README with your own results, notes, or additional instructions as your project evolves.
