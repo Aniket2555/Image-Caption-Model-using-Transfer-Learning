@@ -5,4 +5,5 @@ tensorflow
 tqdm
 matplotlib
 pydot
+nltk
 ipykernel

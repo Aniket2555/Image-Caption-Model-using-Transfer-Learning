@@ -298,11 +298,12 @@ def define_model(vocab_size, max_length):
 
     return model
 
+
 # Training Model
 
 model = define_model(vocab_size,max_length)
 epochs = 10
-steps_per_epoch = 5
+steps_per_epoch = len(train_descriptions)
 
 # making a directory models to save our models
 os.makedirs('models', exist_ok=True)
