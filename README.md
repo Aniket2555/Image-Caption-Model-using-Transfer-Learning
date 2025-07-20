@@ -126,35 +126,13 @@ The model is evaluated using BLEU scores:
 - **BLEU-3**: Trigram precision
 - **BLEU-4**: 4-gram precision
 
+### Results on Flickr8k Test Set
+```
+BLEU-1: 0.419970
+BLEU-2: 0.224301
+BLEU-3: 0.122551
+BLEU-4: 0.065220
+```
+
 ## Results & Visualization
-- Model architecture is saved as `src.model.png`
-- Training progress is displayed during training
-- Sample predictions are shown during evaluation
-- Individual image testing displays the image with generated caption
-
-## Troubleshooting
-
-### Common Issues:
-- **TensorFlow or Keras import errors:** Ensure you are using Python 3.10 and have installed all dependencies in your virtual environment
-- **plot_model errors:** Install both `pydot` and the Graphviz system package, and ensure Graphviz is in your PATH
-- **Large files not tracked by git:** Datasets, models, and generated files are excluded via `.gitignore`
-- **Memory issues:** The features.p file can be large; ensure sufficient RAM for loading
-- **CUDA/GPU issues:** The model can run on CPU, but GPU acceleration is recommended for faster training
-
-### File Path Issues:
-- Ensure image paths in test.py are correct relative to the project root
-- Check that all required files (tokenizer.p, model files) exist in the expected locations
-
-## Dependencies
-Key dependencies include:
-- TensorFlow/Keras
-- PIL (Pillow)
-- NumPy
-- Matplotlib
-- NLTK (for BLEU scoring)
-- tqdm (for progress bars)
-
-## Credits
-- Flickr8k dataset: [https://forms.illinois.edu/sec/1713398](https://forms.illinois.edu/sec/1713398)
-- Keras, TensorFlow, and other open-source libraries
-- Xception CNN architecture for feature extraction
+- Model architecture is saved as `
